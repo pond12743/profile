@@ -1,0 +1,112 @@
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    margin-top: 0px;
+}
+
+้.about{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.record{
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 35px;
+}
+
+hr{
+    width: 100px;
+    height: 2px;
+    background-color:lightslategray;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4ox rgba(0, 0, 0, 0.7);
+}
+
+h1.name{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.slogan{
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 35px;
+}
+
+.social-img ul{
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.social-img ul li{
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+
+.social-img ul li:hover{
+    background: #ccc;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.column{
+    flex: 50%;
+}
+
+.column img{
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+.gallery{
+    height: 200px;
+    width: 270px;
+}
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
